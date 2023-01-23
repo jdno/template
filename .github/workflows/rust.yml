@@ -6,10 +6,12 @@ name: Rust
     branches:
       - main
     paths:
+      - ".github/workflows/rust.yml"
       - "**.rs"
       - "**.toml"
   pull_request:
     paths:
+      - ".github/workflows/rust.yml"
       - "**.rs"
       - "**.toml"
 

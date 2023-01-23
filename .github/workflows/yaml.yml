@@ -6,10 +6,12 @@ name: YAML
     branches:
       - main
     paths:
+      - ".github/workflows/yaml.yml"
       - "**.yml"
       - "**.yaml"
   pull_request:
     paths:
+      - ".github/workflows/yaml.yml"
       - "**.yml"
       - "**.yaml"
 

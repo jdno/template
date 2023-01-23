@@ -6,9 +6,11 @@ name: Markdown
     branches:
       - main
     paths:
+      - ".github/workflows/markdown.yml"
       - "**.md"
   pull_request:
     paths:
+      - ".github/workflows/markdown.yml"
       - "**.md"
 
 jobs:

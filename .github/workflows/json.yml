@@ -6,9 +6,11 @@ name: JSON
     branches:
       - main
     paths:
+      - ".github/workflows/json.yml"
       - "**.json"
   pull_request:
     paths:
+      - ".github/workflows/json.yml"
       - "**.json"
 
 jobs:
