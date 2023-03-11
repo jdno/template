@@ -18,12 +18,12 @@ name: TypeScript
 jobs:
   lint:
     name: Lint
-    uses: jdno/workflows/.github/workflows/typescript-lint.yml
+    uses: jdno/workflows/.github/workflows/typescript-lint.yml@main
 
   style:
     name: Style
-    uses: jdno/workflows/.github/workflows/typescript-style.yml
+    uses: jdno/workflows/.github/workflows/typescript-style.yml@main
 
   test:
     name: Test
-    uses: jdno/workflows/.github/workflows/typescript-test.yml
+    uses: jdno/workflows/.github/workflows/typescript-test.yml@main
