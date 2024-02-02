@@ -1,5 +1,12 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:base", ":disableDependencyDashboard"],
-  "semanticCommits": "disabled"
+
+  "pre-commit": {
+    "enabled": true
+  },
+  "semanticCommits": "disabled",
+
+  "assignees": ["jdno"],
+  "reviewers": ["jdno"]
 }
